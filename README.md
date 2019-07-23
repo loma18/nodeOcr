@@ -1,86 +1,86 @@
-åŸæ–‡æ¥è‡ªï¼šhttps://blog.csdn.net/aladdingod/article/details/78655056
-ç•¥ä½œå®Œå–„åŠè¡¥å……
+Ô­ÎÄÀ´×Ô£ºhttps://blog.csdn.net/aladdingod/article/details/78655056
+ÂÔ×÷ÍêÉÆ¼°²¹³ä
 
-å¼€å‘ç›®çš„</br>
-åŸç†å¾ˆç®€å•ï¼šåœ¨nodeæ­å»ºçš„ç¯å¢ƒä¸‹å¼•ç”¨ç¬¬ä¸‰æ–¹åŒ…å¤„ç†å›¾ç‰‡æ•°æ®å¹¶è¿”å›ç»™å‰å°ä¿¡æ¯ã€‚
-å®ç°æ•ˆæœï¼Œç™¾åº¦æä¾›çš„å›¾ç‰‡è¯†åˆ«ï¼Œç»è¿‡æµ‹è¯•è¯†åˆ«è½¦ç‰Œå·ç­‰è§„èŒƒæ–‡å­—æ•°å­—è¿˜æ˜¯æ¯”è¾ƒå‡†ç¡®çš„
-è¿è¡Œæ­¥éª¤ï¼š
-1ã€åœ¨æ ¹ç›®å½•ä¸‹è¿è¡Œnpm install;
-2ã€è¿›å…¥node_modulesç›®å½•,è§£å‹ç¼©aip-node-sdk-1.4.1.zipæ–‡ä»¶;
-3ã€è¿›å…¥aip-node-sdk-1.4.1æ–‡ä»¶å¤¹å¹¶æ‰§è¡Œnpm install;
-4ã€åœ¨æ ¹ç›®å½•ä¸‹è¿è¡Œnpm startå‘½ä»¤,æµè§ˆå™¨è‡ªåŠ¨æ‰“å¼€å¹¶è·³è½¬è‡³http://localhost:3000/uploadPhoto,å¦‚æ²¡æœ‰è·³è½¬,è¯·è‡ªè¡Œæ‰“å¼€ç½‘å€;
-5ã€å¼€å¿ƒæ„‰å¿«åœ°è‡ªè¡Œä¸Šä¼ å›¾ç‰‡è¯†åˆ«å§ã€‚
-###ç¯å¢ƒéœ€æ±‚
-1.Express æ˜¯ä¸€ä¸ªéå¸¸æµè¡Œçš„node.jsçš„webæ¡†æ¶ã€‚åŸºäºconnect(nodeä¸­é—´ä»¶æ¡†æ¶)ã€‚æä¾›äº†å¾ˆå¤šä¾¿äºå¤„ç†httpè¯·æ±‚ç­‰webå¼€å‘ç›¸å…³çš„æ‰©å±•ã€‚
-2.OCRï¼š
-é€šç”¨æ–‡å­—è¯†åˆ« Node SDKç›®å½•ç»“æ„ï¼š
+¿ª·¢Ä¿µÄ</br>
+Ô­ÀíºÜ¼òµ¥£ºÔÚnode´î½¨µÄ»·¾³ÏÂÒıÓÃµÚÈı·½°ü´¦ÀíÍ¼Æ¬Êı¾İ²¢·µ»Ø¸øÇ°Ì¨ĞÅÏ¢¡£
+ÊµÏÖĞ§¹û£¬°Ù¶ÈÌá¹©µÄÍ¼Æ¬Ê¶±ğ£¬¾­¹ı²âÊÔÊ¶±ğ³µÅÆºÅµÈ¹æ·¶ÎÄ×ÖÊı×Ö»¹ÊÇ±È½Ï×¼È·µÄ
+ÔËĞĞ²½Öè£º
+1¡¢ÔÚ¸ùÄ¿Â¼ÏÂÔËĞĞnpm install;
+2¡¢½øÈënode_modulesÄ¿Â¼,½âÑ¹Ëõaip-node-sdk-1.4.1.zipÎÄ¼ş;
+3¡¢½øÈëaip-node-sdk-1.4.1ÎÄ¼ş¼Ğ²¢Ö´ĞĞnpm install;
+4¡¢ÔÚ¸ùÄ¿Â¼ÏÂÔËĞĞnpm startÃüÁî,ä¯ÀÀÆ÷×Ô¶¯´ò¿ª²¢Ìø×ªÖÁhttp://localhost:3000/uploadPhoto,ÈçÃ»ÓĞÌø×ª,Çë×ÔĞĞ´ò¿ªÍøÖ·;
+5¡¢¿ªĞÄÓä¿ìµØ×ÔĞĞÉÏ´«Í¼Æ¬Ê¶±ğ°É¡£
+###»·¾³ĞèÇó
+1.Express ÊÇÒ»¸ö·Ç³£Á÷ĞĞµÄnode.jsµÄweb¿ò¼Ü¡£»ùÓÚconnect(nodeÖĞ¼ä¼ş¿ò¼Ü)¡£Ìá¹©ÁËºÜ¶à±ãÓÚ´¦ÀíhttpÇëÇóµÈweb¿ª·¢Ïà¹ØµÄÀ©Õ¹¡£
+2.OCR£º
+Í¨ÓÃÎÄ×ÖÊ¶±ğ Node SDKÄ¿Â¼½á¹¹£º
 <pre><code>
-â”œâ”€â”€ src
-    â”‚  â”œâ”€â”€ auth                                //æˆæƒç›¸å…³ç±»
-    â”‚  â”œâ”€â”€ http                                //Httpé€šä¿¡ç›¸å…³ç±»
-    â”‚  â”œâ”€â”€ client                              //å…¬ç”¨ç±»
-    â”‚  â”œâ”€â”€ util                                //å·¥å…·ç±»
-    â”‚  â””â”€â”€ const                               //å¸¸é‡ç±»
-    â”œâ”€â”€ AipOcr.js                      //é€šç”¨æ–‡å­—è¯†åˆ«äº¤äº’ç±»
-    â”œâ”€â”€ index.js                               //å…¥å£æ–‡ä»¶
-    â””â”€â”€ package.json                           //npmåŒ…æè¿°æ–‡ä»¶
+©À©¤©¤ src
+    ©¦  ©À©¤©¤ auth                                //ÊÚÈ¨Ïà¹ØÀà
+    ©¦  ©À©¤©¤ http                                //HttpÍ¨ĞÅÏà¹ØÀà
+    ©¦  ©À©¤©¤ client                              //¹«ÓÃÀà
+    ©¦  ©À©¤©¤ util                                //¹¤¾ßÀà
+    ©¦  ©¸©¤©¤ const                               //³£Á¿Àà
+    ©À©¤©¤ AipOcr.js                      //Í¨ÓÃÎÄ×ÖÊ¶±ğ½»»¥Àà
+    ©À©¤©¤ index.js                               //Èë¿ÚÎÄ¼ş
+    ©¸©¤©¤ package.json                           //npm°üÃèÊöÎÄ¼ş
   </code> </pre> 
-  æ”¯æŒ node ç‰ˆæœ¬ 4.0+
-  ç›´æ¥ä½¿ç”¨nodeå¼€å‘åŒ…æ­¥éª¤å¦‚ä¸‹ï¼š
-1.åœ¨å®˜æ–¹ç½‘ç«™ä¸‹è½½node SDKå‹ç¼©åŒ…ã€‚
-2.å°†ä¸‹è½½çš„aip-node-sdk-version.zipè§£å‹åï¼Œå¤åˆ¶åˆ°å·¥ç¨‹æ–‡ä»¶å¤¹ä¸­ã€‚
-3.è¿›å…¥ç›®å½•ï¼Œè¿è¡Œnpm installå®‰è£…sdkä¾èµ–åº“
-4.æŠŠç›®å½•å½“åšæ¨¡å—ä¾èµ–
-å…¶ä¸­ï¼Œversionä¸ºç‰ˆæœ¬å·ï¼Œæ·»åŠ å®Œæˆåï¼Œç”¨æˆ·å°±å¯ä»¥åœ¨å·¥ç¨‹ä¸­ä½¿ç”¨é€šç”¨æ–‡å­—è¯†åˆ« Node SDKã€‚
-ç›´æ¥ä½¿ç”¨npmå®‰è£…ä¾èµ–ï¼š
-npm install baidu-aip-sdkï¼ˆ**å°è¯•æ²¡æœ‰æˆåŠŸ**ï¼‰
+  Ö§³Ö node °æ±¾ 4.0+
+  Ö±½ÓÊ¹ÓÃnode¿ª·¢°ü²½ÖèÈçÏÂ£º
+1.ÔÚ¹Ù·½ÍøÕ¾ÏÂÔØnode SDKÑ¹Ëõ°ü¡£
+2.½«ÏÂÔØµÄaip-node-sdk-version.zip½âÑ¹ºó£¬¸´ÖÆµ½¹¤³ÌÎÄ¼ş¼ĞÖĞ¡£
+3.½øÈëÄ¿Â¼£¬ÔËĞĞnpm install°²×°sdkÒÀÀµ¿â
+4.°ÑÄ¿Â¼µ±×öÄ£¿éÒÀÀµ
+ÆäÖĞ£¬versionÎª°æ±¾ºÅ£¬Ìí¼ÓÍê³Éºó£¬ÓÃ»§¾Í¿ÉÒÔÔÚ¹¤³ÌÖĞÊ¹ÓÃÍ¨ÓÃÎÄ×ÖÊ¶±ğ Node SDK¡£
+Ö±½ÓÊ¹ÓÃnpm°²×°ÒÀÀµ£º
+npm install baidu-aip-sdk£¨**³¢ÊÔÃ»ÓĞ³É¹¦**£©
 
-AipOcrClientæ˜¯Optical Character Recognitionçš„nodeå®¢æˆ·ç«¯ï¼Œä¸ºä½¿ç”¨Optical Character Recognitionçš„å¼€å‘äººå‘˜æä¾›äº†ä¸€ç³»åˆ—çš„äº¤äº’æ–¹æ³•ã€‚
-ç”¨æˆ·å¯ä»¥å‚è€ƒå¦‚ä¸‹ä»£ç æ–°å»ºä¸€ä¸ªAipOcrClientï¼š
+AipOcrClientÊÇOptical Character RecognitionµÄnode¿Í»§¶Ë£¬ÎªÊ¹ÓÃOptical Character RecognitionµÄ¿ª·¢ÈËÔ±Ìá¹©ÁËÒ»ÏµÁĞµÄ½»»¥·½·¨¡£
+ÓÃ»§¿ÉÒÔ²Î¿¼ÈçÏÂ´úÂëĞÂ½¨Ò»¸öAipOcrClient£º
 <code>
 var AipOcrClient = require("baidu-aip-sdk").ocr;
-// è®¾ç½®APPID/AK/SK
-var APP_ID = "ä½ çš„ App ID";
-var API_KEY = "ä½ çš„ Api Key";
-var SECRET_KEY = "ä½ çš„ Secret Key";
+// ÉèÖÃAPPID/AK/SK
+var APP_ID = "ÄãµÄ App ID";
+var API_KEY = "ÄãµÄ Api Key";
+var SECRET_KEY = "ÄãµÄ Secret Key";
 var client = new AipOcrClient(APP_ID, API_KEY, SECRET_KEY);
 </code>
 
-###åŠŸèƒ½å®ç°
-å‰ç«¯ä¸Šä¼ å›¾ç‰‡åç«¯å¤„ç†ï¼š
+###¹¦ÄÜÊµÏÖ
+Ç°¶ËÉÏ´«Í¼Æ¬ºó¶Ë´¦Àí£º
 <pre><code>
-router.route("/uploadPhoto").get(function(req,res){    // åˆ°è¾¾æ­¤è·¯å¾„åˆ™æ¸²æŸ“registeræ–‡ä»¶ï¼Œå¹¶ä¼ å‡ºtitleå€¼ä¾› register.htmlä½¿ç”¨
-    res.render("uploadPhoto",{title:'å›¾ç‰‡æ–‡å­—è¯†åˆ«',message:""});
+router.route("/uploadPhoto").get(function(req,res){    // µ½´ï´ËÂ·¾¶ÔòäÖÈ¾registerÎÄ¼ş£¬²¢´«³ötitleÖµ¹© register.htmlÊ¹ÓÃ
+    res.render("uploadPhoto",{title:'Í¼Æ¬ÎÄ×ÖÊ¶±ğ',message:""});
 }).post(function(req,res){
-	// è·¨åŸŸ
+	// ¿çÓò
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Methods","PUT,POST,GET,DELETE,OPTIONS");
     res.header("Access-Control-Allow-Headers", "Content-Type,Content-Length, Authorization, Accept,X-Requested-With");
     
     let form = new formidable.IncomingForm();
-    form.encoding = 'utf-8'; // ç¼–ç 
-    form.keepExtensions = true; // ä¿ç•™æ‰©å±•å
-    form.maxFieldsSize = 2 * 1024 * 1024; // æ–‡ä»¶å¤§å°
-    form.uploadDir = 'F:/nodejs/ocrCheck/assets/OCR'  // å­˜å‚¨è·¯å¾„
-    form.parse(req,function(err,fileds,files){ // è§£æ formDataæ•°æ®
+    form.encoding = 'utf-8'; // ±àÂë
+    form.keepExtensions = true; // ±£ÁôÀ©Õ¹Ãû
+    form.maxFieldsSize = 2 * 1024 * 1024; // ÎÄ¼ş´óĞ¡
+    form.uploadDir = 'F:/nodejs/ocrCheck/assets/OCR'  // ´æ´¢Â·¾¶
+    form.parse(req,function(err,fileds,files){ // ½âÎö formDataÊı¾İ
         if(err){ return console.log(err) }
 
-        let imgPath = files.img.path // è·å–æ–‡ä»¶è·¯å¾„
-        let imgName = "C:/Users/qduser02/Desktop/OCR/Node_OCR/assets/OCR/test." + files.img.type.split("/")[1] // ä¿®æ”¹ä¹‹åçš„åå­—
-        let data = fs.readFileSync(imgPath) // åŒæ­¥è¯»å–æ–‡ä»¶
+        let imgPath = files.img.path // »ñÈ¡ÎÄ¼şÂ·¾¶
+        let imgName = "C:/Users/qduser02/Desktop/OCR/Node_OCR/assets/OCR/test." + files.img.type.split("/")[1] // ĞŞ¸ÄÖ®ºóµÄÃû×Ö
+        let data = fs.readFileSync(imgPath) // Í¬²½¶ÁÈ¡ÎÄ¼ş
 
-        fs.writeFile(imgName,data,function(err){ // å­˜å‚¨æ–‡ä»¶
+        fs.writeFile(imgName,data,function(err){ // ´æ´¢ÎÄ¼ş
             if(err){ return console.log(err) }
 
-            fs.unlink(imgPath,function(){}) // åˆ é™¤æ–‡ä»¶
-            //ä¸Šä¼ å›¾ç‰‡æˆåŠŸè¿”å›code:1
+            fs.unlink(imgPath,function(){}) // É¾³ıÎÄ¼ş
+            //ÉÏ´«Í¼Æ¬³É¹¦·µ»Øcode:1
             //res.json({code:1})
             global.nodeServer.getResult(res,imgName);
         })
     });
 });
 </code></pre>
-å›¾ç‰‡å¤„ç†æ ¸å¿ƒæ¨¡å—:
+Í¼Æ¬´¦ÀíºËĞÄÄ£¿é:
 <pre><code>
 module.exports = { 
 	getResult : function(res,imgName){
@@ -93,21 +93,21 @@ module.exports = {
 	}
 }
 </code></pre>
-è·å–åˆ°çš„base64å›¾ç‰‡æ•°æ®å’Œreså¯¹è±¡ä½œä¸ºé˜è¿°ä¼ é€’ç»™ocræä¾›å¥½çš„æ–¹æ³•ï¼Œ
-å›è°ƒäº§ç”Ÿçš„æ•°æ®å°†ä½œä¸ºç»“æœè¿”å›ç»™å‰ç«¯ã€‚
-***####å°å½©è›‹ï¼š***
-nodeJsä¸­commonJsè§„èŒƒå¦‚ä½•å®ç°çš„ï¼Ÿ
+»ñÈ¡µ½µÄbase64Í¼Æ¬Êı¾İºÍres¶ÔÏó×÷Îª²ûÊö´«µİ¸øocrÌá¹©ºÃµÄ·½·¨£¬
+»Øµ÷²úÉúµÄÊı¾İ½«×÷Îª½á¹û·µ»Ø¸øÇ°¶Ë¡£
+***####Ğ¡²Êµ°£º***
+nodeJsÖĞcommonJs¹æ·¶ÈçºÎÊµÏÖµÄ£¿
 
-1.Nodeç¨‹åºç”±è®¸å¤šä¸ªæ¨¡å—ç»„æˆï¼Œæ¯ä¸ªæ¨¡å—å°±æ˜¯ä¸€ä¸ªæ–‡ä»¶ã€‚Nodeæ¨¡å—é‡‡ç”¨äº†CommonJSè§„èŒƒã€‚
-2.moduleå¯¹è±¡ï¼ŒNodeå†…éƒ¨æä¾›ä¸€ä¸ªModuleæ„å»ºå‡½æ•°ã€‚æ‰€æœ‰æ¨¡å—éƒ½æ˜¯Moduleçš„å®ä¾‹ã€‚æ¯ä¸ªæ¨¡å—å†…éƒ¨ï¼Œéƒ½æœ‰ä¸€ä¸ªmoduleå¯¹è±¡ï¼Œä»£è¡¨å½“å‰æ¨¡å—ã€‚å®ƒæœ‰ä»¥ä¸‹å±æ€§ã€‚
+1.Node³ÌĞòÓÉĞí¶à¸öÄ£¿é×é³É£¬Ã¿¸öÄ£¿é¾ÍÊÇÒ»¸öÎÄ¼ş¡£NodeÄ£¿é²ÉÓÃÁËCommonJS¹æ·¶¡£
+2.module¶ÔÏó£¬NodeÄÚ²¿Ìá¹©Ò»¸öModule¹¹½¨º¯Êı¡£ËùÓĞÄ£¿é¶¼ÊÇModuleµÄÊµÀı¡£Ã¿¸öÄ£¿éÄÚ²¿£¬¶¼ÓĞÒ»¸ömodule¶ÔÏó£¬´ú±íµ±Ç°Ä£¿é¡£ËüÓĞÒÔÏÂÊôĞÔ¡£
 
-    module.id æ¨¡å—çš„è¯†åˆ«ç¬¦ï¼Œé€šå¸¸æ˜¯å¸¦æœ‰ç»å¯¹è·¯å¾„çš„æ¨¡å—æ–‡ä»¶åã€‚
-    module.filename æ¨¡å—çš„æ–‡ä»¶åï¼Œå¸¦æœ‰ç»å¯¹è·¯å¾„ã€‚
-    module.loaded è¿”å›ä¸€ä¸ªå¸ƒå°”å€¼ï¼Œè¡¨ç¤ºæ¨¡å—æ˜¯å¦å·²ç»å®ŒæˆåŠ è½½ã€‚
-    module.parent è¿”å›ä¸€ä¸ªå¯¹è±¡ï¼Œè¡¨ç¤ºè°ƒç”¨è¯¥æ¨¡å—çš„æ¨¡å—ã€‚
-    module.children è¿”å›ä¸€ä¸ªæ•°ç»„ï¼Œè¡¨ç¤ºè¯¥æ¨¡å—è¦ç”¨åˆ°çš„å…¶ä»–æ¨¡å—ã€‚
-    module.exports è¡¨ç¤ºæ¨¡å—å¯¹å¤–è¾“å‡ºçš„å€¼ã€‚
-3.è°ƒç”¨ï¼šæ ¹æ®æ¨¡å—åç§°ä½œä¸ºå¯¹è±¡è°ƒç”¨å…¶å†…è‡ªå®šä¹‰çš„æ–¹æ³•å³å¯ã€‚
+    module.id Ä£¿éµÄÊ¶±ğ·û£¬Í¨³£ÊÇ´øÓĞ¾ø¶ÔÂ·¾¶µÄÄ£¿éÎÄ¼şÃû¡£
+    module.filename Ä£¿éµÄÎÄ¼şÃû£¬´øÓĞ¾ø¶ÔÂ·¾¶¡£
+    module.loaded ·µ»ØÒ»¸ö²¼¶ûÖµ£¬±íÊ¾Ä£¿éÊÇ·ñÒÑ¾­Íê³É¼ÓÔØ¡£
+    module.parent ·µ»ØÒ»¸ö¶ÔÏó£¬±íÊ¾µ÷ÓÃ¸ÃÄ£¿éµÄÄ£¿é¡£
+    module.children ·µ»ØÒ»¸öÊı×é£¬±íÊ¾¸ÃÄ£¿éÒªÓÃµ½µÄÆäËûÄ£¿é¡£
+    module.exports ±íÊ¾Ä£¿é¶ÔÍâÊä³öµÄÖµ¡£
+3.µ÷ÓÃ£º¸ù¾İÄ£¿éÃû³Æ×÷Îª¶ÔÏóµ÷ÓÃÆäÄÚ×Ô¶¨ÒåµÄ·½·¨¼´¿É¡£
 
 <code> global.nodeServer.getResult(res,imgName);</code>
 
