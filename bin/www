@@ -44,7 +44,7 @@ const openDefaultBrowser = function (url) {
       exec('xdg-open', [url]);
   }
 }
-openDefaultBrowser('http://localhost:3000/uploadPhoto')
+openDefaultBrowser('http://localhost:3000/uploadPhoto');
 
 /**
  * Normalize a port into a number, string, or false.

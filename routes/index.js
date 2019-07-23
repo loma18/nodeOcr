@@ -4,9 +4,11 @@ var fs = require("fs");
 var formidable = require('formidable');
 
 /* GET home page. */
-router.route("/uploadPhoto").get(function (req, res) {    // 到达此路径则渲染register文件，并传出title值供 register.html使用
-    res.render("uploadPhoto", { title: '图片文字识别', message: "" });
-}).post(function (req, res) {
+router.route("/uploadPhoto").get(function (req, res) {    // 到达此路径则渲染uploadPhoto文件，并传出title值供 uploadPhoto.html使用
+    res.render("uploadPhoto", { title: '图片文字识别', message: "111" });
+})
+
+router.route("/uploadPhoto").post(function (req, res) {
     // 跨域
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS");
@@ -35,4 +37,9 @@ router.route("/uploadPhoto").get(function (req, res) {    // 到达此路径则�
         })
     });
 });
+
+router.get('/*', function (req, res, next) {
+    res.send('respond with 404 page,please jump to /uploadPhoto');
+});
+
 module.exports = router;
