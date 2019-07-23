@@ -1,6 +1,15 @@
+原文来自：https://blog.csdn.net/aladdingod/article/details/78655056
+略作完善及补充
+
 开发目的</br>
-这算是node应用的第二个小应用吧，主要目的是熟悉node和express框架。原理很简单：在node搭建的环境下引用第三方包处理图片数据并返回给前台信息。
+原理很简单：在node搭建的环境下引用第三方包处理图片数据并返回给前台信息。
 实现效果，百度提供的图片识别，经过测试识别车牌号等规范文字数字还是比较准确的
+运行步骤：
+1、在根目录下运行npm install;
+2、进入node_modules目录,解压缩aip-node-sdk-1.4.1.zip文件;
+3、进入aip-node-sdk-1.4.1文件夹并执行npm install;
+4、在根目录下运行npm start命令,浏览器自动打开并跳转至http://localhost:3000/uploadPhoto,如没有跳转,请自行打开网址;
+5、开心愉快地自行上传图片识别吧。
 ###环境需求
 1.Express 是一个非常流行的node.js的web框架。基于connect(node中间件框架)。提供了很多便于处理http请求等web开发相关的扩展。
 2.OCR：
@@ -36,7 +45,6 @@ var API_KEY = "你的 Api Key";
 var SECRET_KEY = "你的 Secret Key";
 var client = new AipOcrClient(APP_ID, API_KEY, SECRET_KEY);
 </code>
-*express搭建就不再做详细介绍了，上一篇博客已有哦~~*
 
 ###功能实现
 前端上传图片后端处理：
@@ -58,7 +66,7 @@ router.route("/uploadPhoto").get(function(req,res){    // 到达此路径则渲�
         if(err){ return console.log(err) }
 
         let imgPath = files.img.path // 获取文件路径
-        let imgName = "F:/nodejs/ocrCheck/assets/OCR/test." + files.img.type.split("/")[1] // 修改之后的名字
+        let imgName = "C:/Users/qduser02/Desktop/OCR/Node_OCR/assets/OCR/test." + files.img.type.split("/")[1] // 修改之后的名字
         let data = fs.readFileSync(imgPath) // 同步读取文件
 
         fs.writeFile(imgName,data,function(err){ // 存储文件
@@ -102,10 +110,5 @@ nodeJs中commonJs规范如何实现的？
 3.调用：根据模块名称作为对象调用其内自定义的方法即可。
 
 <code> global.nodeServer.getResult(res,imgName);</code>
-
-*前端js代码就不贴了 so~easy*
-
-###效果展示
-![这里写图片描述](http://img.blog.csdn.net/20171128143449471?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYWxhZGRpbmdvZA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 
